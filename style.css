@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(/images/mitchell-luo-xREzOtWzDrQ-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  height: 40vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  margin: 0 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 56vh;
+  margin: 0 10px 10px 10px;
+}
+.grid-contain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 56vh;
+  margin: 0 10px 10px 10px;
+}
+.project-1 {
+  background: url(/images/poem.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 40px;
+  height: 230px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.project-1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.65)),
+    url(/images/poem.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(0.85);
+  transition: all 1s;
+}
+.project-2 {
+  background: url(/images/3card\ image.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  height: 230px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.project-2:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.65)),
+    url(/images/3card\ image.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(0.85);
+  transition: all 1s;
+}
+.project-3 {
+  background: url(/images/multiplication.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  height: 230px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.project-3:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.65)),
+    url(/images/multiplication.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(0.85);
+  transition: all 1s;
+}
+.txt {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 700;
+
+  font-family: "Raleway", sans-serif;
+}
